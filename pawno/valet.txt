@@ -1,0 +1,57 @@
+/*
+	para mapalabas yung Valet
+	
+	OnPlayerCallDriver(pID, vID);
+	
+	pID -> ID ng target
+	vID -> ID ng Vehicle
+*/
+
+#include <rnpc>
+
+// defines
+#define RNPC_DEBUG
+#define RNPC_NO_VERSION_CHECK
+#define RNPC_NO_STATUPDATES 
+
+// variables
+enum valetEnum
+{
+	Float:StartPos[3],
+	Float:TargetPos[3]
+};
+new ValetData[100][valetEnum];
+
+// script
+forward OnPlayerCallDriver(pID, vID);
+public OnPlayerCallDriver(pID, vID)
+{
+	GetPlayerPos(pID, ValetData[pID][TargetPos][0], ValetData[pID][TargetPos][1], ValetData[pID][TargetPos][2]);
+	GetVehiclePos(vID, ValetData[pID][StartPos][0], ValetData[pID][StartPos][1], ValetData[pID][StartPos][2]);
+	
+	SpawnDriver(pID, vID);
+}
+
+SpawnDriver(pID, vID)
+{
+	new npc, npcname[MAX_PLAYER_NAME];
+	
+	format(npcname, sizeof(npcname), "Driver_%i", pID);
+	
+	npc = ConnectRNPC(npcname);
+	
+	PutPlayerInVehicle(npc, vID, 0);
+	 
+	RNPC_CreateBuild(npc, PLAYER_RECORDING_TYPE_DRIVER);
+	RNPC_SetAcceleration(0.003);
+	RNPC_AddMovementAlt(ValetData[pID][StartPos][0], ValetData[pID][StartPos][1], ValetData[pID][StartPos][2], ValetData[pID][TargetPos][0], ValetData[pID][TargetPos][1], ValetData[pID][TargetPos][2], 0.20)
+	RNPC_FinishBuild();
+	 
+	RNPC_StartBuildPlayback(npc);
+}
+
+// callback
+public OnRNPCPlaybackFinished(npcid)
+{
+	RNPC_StopPlayback(npcid);
+}

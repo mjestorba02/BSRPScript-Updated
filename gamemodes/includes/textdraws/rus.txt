@@ -1,0 +1,31 @@
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(3173) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(5) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(6) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(7) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(8) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(9) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(10) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(11) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(12) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(13) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(14) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(15) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(16) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(17) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(18) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(19) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(20) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(21) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(22) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(3168) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(3169) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(3170) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(3171) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(3173) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "CreateInvBoxTD"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(24) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "CreateInvTD"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(3135) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "DebugInventory"
+c:\Users\emjeyy\Desktop\CELESTIAL Orig\gamemodes\includes\textdraws\inventory.pwn(3135) -- (3286) : îøèáêà 013: îòñóòñòâóåò òî÷êà âõîäà (íåò public-ôóíêöèé)
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Îøèáîê:24.

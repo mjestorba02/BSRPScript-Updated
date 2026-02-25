@@ -1,0 +1,160 @@
+new PlayerText:SelectSkinTD[MAX_PLAYERS][11];
+
+CreateSkinTextdraw(playerid)
+{
+	SelectSkinTD[playerid][0] = CreatePlayerTextDraw(playerid, 317.500000, 365.000000, "_");
+	PlayerTextDrawFont(playerid, SelectSkinTD[playerid][0], 1);
+	PlayerTextDrawLetterSize(playerid, SelectSkinTD[playerid][0], 0.600000, 0.650004);
+	PlayerTextDrawTextSize(playerid, SelectSkinTD[playerid][0], 298.500000, 132.500000);
+	PlayerTextDrawSetOutline(playerid, SelectSkinTD[playerid][0], 1);
+	PlayerTextDrawSetShadow(playerid, SelectSkinTD[playerid][0], 0);
+	PlayerTextDrawAlignment(playerid, SelectSkinTD[playerid][0], 2);
+	PlayerTextDrawColor(playerid, SelectSkinTD[playerid][0], -741092353);
+	PlayerTextDrawBackgroundColor(playerid, SelectSkinTD[playerid][0], 255);
+	PlayerTextDrawBoxColor(playerid, SelectSkinTD[playerid][0], 255);
+	PlayerTextDrawUseBox(playerid, SelectSkinTD[playerid][0], 1);
+	PlayerTextDrawSetProportional(playerid, SelectSkinTD[playerid][0], 1);
+	PlayerTextDrawSetSelectable(playerid, SelectSkinTD[playerid][0], 0);
+
+	SelectSkinTD[playerid][1] = CreatePlayerTextDraw(playerid, 245.000000, 348.000000, "ld_beat:chit");
+	PlayerTextDrawFont(playerid, SelectSkinTD[playerid][1], 4);
+	PlayerTextDrawLetterSize(playerid, SelectSkinTD[playerid][1], 0.600000, 2.000000);
+	PlayerTextDrawTextSize(playerid, SelectSkinTD[playerid][1], 31.500000, 32.000000);
+	PlayerTextDrawSetOutline(playerid, SelectSkinTD[playerid][1], 1);
+	PlayerTextDrawSetShadow(playerid, SelectSkinTD[playerid][1], 0);
+	PlayerTextDrawAlignment(playerid, SelectSkinTD[playerid][1], 1);
+	PlayerTextDrawColor(playerid, SelectSkinTD[playerid][1], 255);
+	PlayerTextDrawBackgroundColor(playerid, SelectSkinTD[playerid][1], 255);
+	PlayerTextDrawBoxColor(playerid, SelectSkinTD[playerid][1], 50);
+	PlayerTextDrawUseBox(playerid, SelectSkinTD[playerid][1], 1);
+	PlayerTextDrawSetProportional(playerid, SelectSkinTD[playerid][1], 1);
+	PlayerTextDrawSetSelectable(playerid, SelectSkinTD[playerid][1], 0);
+
+	SelectSkinTD[playerid][2] = CreatePlayerTextDraw(playerid, 318.000000, 355.000000, "_");
+	PlayerTextDrawFont(playerid, SelectSkinTD[playerid][2], 1);
+	PlayerTextDrawLetterSize(playerid, SelectSkinTD[playerid][2], 0.600000, 2.800003);
+	PlayerTextDrawTextSize(playerid, SelectSkinTD[playerid][2], 298.500000, 115.000000);
+	PlayerTextDrawSetOutline(playerid, SelectSkinTD[playerid][2], 1);
+	PlayerTextDrawSetShadow(playerid, SelectSkinTD[playerid][2], 0);
+	PlayerTextDrawAlignment(playerid, SelectSkinTD[playerid][2], 2);
+	PlayerTextDrawColor(playerid, SelectSkinTD[playerid][2], -741092353);
+	PlayerTextDrawBackgroundColor(playerid, SelectSkinTD[playerid][2], 255);
+	PlayerTextDrawBoxColor(playerid, SelectSkinTD[playerid][2], 255);
+	PlayerTextDrawUseBox(playerid, SelectSkinTD[playerid][2], 1);
+	PlayerTextDrawSetProportional(playerid, SelectSkinTD[playerid][2], 1);
+	PlayerTextDrawSetSelectable(playerid, SelectSkinTD[playerid][2], 0);
+
+	SelectSkinTD[playerid][3] = CreatePlayerTextDraw(playerid, 318.000000, 403.000000, "---------------");
+	PlayerTextDrawFont(playerid, SelectSkinTD[playerid][3], 2);
+	PlayerTextDrawLetterSize(playerid, SelectSkinTD[playerid][3], 0.487500, 1.899999);
+	PlayerTextDrawTextSize(playerid, SelectSkinTD[playerid][3], 400.000000, 118.000000);
+	PlayerTextDrawSetOutline(playerid, SelectSkinTD[playerid][3], 0);
+	PlayerTextDrawSetShadow(playerid, SelectSkinTD[playerid][3], 0);
+	PlayerTextDrawAlignment(playerid, SelectSkinTD[playerid][3], 2);
+	PlayerTextDrawColor(playerid, SelectSkinTD[playerid][3], -1);
+	PlayerTextDrawBackgroundColor(playerid, SelectSkinTD[playerid][3], 255);
+	PlayerTextDrawBoxColor(playerid, SelectSkinTD[playerid][3], 50);
+	PlayerTextDrawUseBox(playerid, SelectSkinTD[playerid][3], 0);
+	PlayerTextDrawSetProportional(playerid, SelectSkinTD[playerid][3], 1);
+	PlayerTextDrawSetSelectable(playerid, SelectSkinTD[playerid][3], 0);
+
+	SelectSkinTD[playerid][4] = CreatePlayerTextDraw(playerid, 318.000000, 356.000000, "294");
+	PlayerTextDrawFont(playerid, SelectSkinTD[playerid][4], 2);
+	PlayerTextDrawLetterSize(playerid, SelectSkinTD[playerid][4], 0.512498, 2.150000);
+	PlayerTextDrawTextSize(playerid, SelectSkinTD[playerid][4], 400.000000, 118.000000);
+	PlayerTextDrawSetOutline(playerid, SelectSkinTD[playerid][4], 0);
+	PlayerTextDrawSetShadow(playerid, SelectSkinTD[playerid][4], 0);
+	PlayerTextDrawAlignment(playerid, SelectSkinTD[playerid][4], 2);
+	PlayerTextDrawColor(playerid, SelectSkinTD[playerid][4], -1);
+	PlayerTextDrawBackgroundColor(playerid, SelectSkinTD[playerid][4], 255);
+	PlayerTextDrawBoxColor(playerid, SelectSkinTD[playerid][4], 50);
+	PlayerTextDrawUseBox(playerid, SelectSkinTD[playerid][4], 0);
+	PlayerTextDrawSetProportional(playerid, SelectSkinTD[playerid][4], 1);
+	PlayerTextDrawSetSelectable(playerid, SelectSkinTD[playerid][4], 0);
+
+	SelectSkinTD[playerid][5] = CreatePlayerTextDraw(playerid, 359.000000, 348.000000, "ld_beat:chit");
+	PlayerTextDrawFont(playerid, SelectSkinTD[playerid][5], 4);
+	PlayerTextDrawLetterSize(playerid, SelectSkinTD[playerid][5], 0.600000, 2.000000);
+	PlayerTextDrawTextSize(playerid, SelectSkinTD[playerid][5], 31.500000, 32.000000);
+	PlayerTextDrawSetOutline(playerid, SelectSkinTD[playerid][5], 1);
+	PlayerTextDrawSetShadow(playerid, SelectSkinTD[playerid][5], 0);
+	PlayerTextDrawAlignment(playerid, SelectSkinTD[playerid][5], 1);
+	PlayerTextDrawColor(playerid, SelectSkinTD[playerid][5], 255);
+	PlayerTextDrawBackgroundColor(playerid, SelectSkinTD[playerid][5], 255);
+	PlayerTextDrawBoxColor(playerid, SelectSkinTD[playerid][5], 50);
+	PlayerTextDrawUseBox(playerid, SelectSkinTD[playerid][5], 1);
+	PlayerTextDrawSetProportional(playerid, SelectSkinTD[playerid][5], 1);
+	PlayerTextDrawSetSelectable(playerid, SelectSkinTD[playerid][5], 0);
+
+	SelectSkinTD[playerid][6] = CreatePlayerTextDraw(playerid, 245.000000, 355.000000, "ld_beat:chit");
+	PlayerTextDrawFont(playerid, SelectSkinTD[playerid][6], 4);
+	PlayerTextDrawLetterSize(playerid, SelectSkinTD[playerid][6], 0.600000, 2.000000);
+	PlayerTextDrawTextSize(playerid, SelectSkinTD[playerid][6], 31.500000, 32.000000);
+	PlayerTextDrawSetOutline(playerid, SelectSkinTD[playerid][6], 1);
+	PlayerTextDrawSetShadow(playerid, SelectSkinTD[playerid][6], 0);
+	PlayerTextDrawAlignment(playerid, SelectSkinTD[playerid][6], 1);
+	PlayerTextDrawColor(playerid, SelectSkinTD[playerid][6], 255);
+	PlayerTextDrawBackgroundColor(playerid, SelectSkinTD[playerid][6], 255);
+	PlayerTextDrawBoxColor(playerid, SelectSkinTD[playerid][6], 50);
+	PlayerTextDrawUseBox(playerid, SelectSkinTD[playerid][6], 1);
+	PlayerTextDrawSetProportional(playerid, SelectSkinTD[playerid][6], 1);
+	PlayerTextDrawSetSelectable(playerid, SelectSkinTD[playerid][6], 0);
+
+	SelectSkinTD[playerid][7] = CreatePlayerTextDraw(playerid, 359.000000, 355.000000, "ld_beat:chit");
+	PlayerTextDrawFont(playerid, SelectSkinTD[playerid][7], 4);
+	PlayerTextDrawLetterSize(playerid, SelectSkinTD[playerid][7], 0.600000, 2.000000);
+	PlayerTextDrawTextSize(playerid, SelectSkinTD[playerid][7], 31.500000, 32.000000);
+	PlayerTextDrawSetOutline(playerid, SelectSkinTD[playerid][7], 1);
+	PlayerTextDrawSetShadow(playerid, SelectSkinTD[playerid][7], 0);
+	PlayerTextDrawAlignment(playerid, SelectSkinTD[playerid][7], 1);
+	PlayerTextDrawColor(playerid, SelectSkinTD[playerid][7], 255);
+	PlayerTextDrawBackgroundColor(playerid, SelectSkinTD[playerid][7], 255);
+	PlayerTextDrawBoxColor(playerid, SelectSkinTD[playerid][7], 50);
+	PlayerTextDrawUseBox(playerid, SelectSkinTD[playerid][7], 1);
+	PlayerTextDrawSetProportional(playerid, SelectSkinTD[playerid][7], 1);
+	PlayerTextDrawSetSelectable(playerid, SelectSkinTD[playerid][7], 0);
+
+	SelectSkinTD[playerid][8] = CreatePlayerTextDraw(playerid, 318.000000, 392.000000, "CONFIRM");
+	PlayerTextDrawFont(playerid, SelectSkinTD[playerid][8], 2);
+	PlayerTextDrawLetterSize(playerid, SelectSkinTD[playerid][8], 0.487500, 1.899999);
+	PlayerTextDrawTextSize(playerid, SelectSkinTD[playerid][8], 400.000000, 118.000000);
+	PlayerTextDrawSetOutline(playerid, SelectSkinTD[playerid][8], 0);
+	PlayerTextDrawSetShadow(playerid, SelectSkinTD[playerid][8], 0);
+	PlayerTextDrawAlignment(playerid, SelectSkinTD[playerid][8], 2);
+	PlayerTextDrawColor(playerid, SelectSkinTD[playerid][8], -1);
+	PlayerTextDrawBackgroundColor(playerid, SelectSkinTD[playerid][8], 255);
+	PlayerTextDrawBoxColor(playerid, SelectSkinTD[playerid][8], 50);
+	PlayerTextDrawUseBox(playerid, SelectSkinTD[playerid][8], 0);
+	PlayerTextDrawSetProportional(playerid, SelectSkinTD[playerid][8], 1);
+	PlayerTextDrawSetSelectable(playerid, SelectSkinTD[playerid][8], 1);
+
+	SelectSkinTD[playerid][9] = CreatePlayerTextDraw(playerid, 266.000000, 352.000000, "<<");
+	PlayerTextDrawFont(playerid, SelectSkinTD[playerid][9], 3);
+	PlayerTextDrawLetterSize(playerid, SelectSkinTD[playerid][9], 0.649999, 3.049998);
+	PlayerTextDrawTextSize(playerid, SelectSkinTD[playerid][9], 400.000000, 31.000000);
+	PlayerTextDrawSetOutline(playerid, SelectSkinTD[playerid][9], 0);
+	PlayerTextDrawSetShadow(playerid, SelectSkinTD[playerid][9], 0);
+	PlayerTextDrawAlignment(playerid, SelectSkinTD[playerid][9], 2);
+	PlayerTextDrawColor(playerid, SelectSkinTD[playerid][9], -1);
+	PlayerTextDrawBackgroundColor(playerid, SelectSkinTD[playerid][9], 255);
+	PlayerTextDrawBoxColor(playerid, SelectSkinTD[playerid][9], 50);
+	PlayerTextDrawUseBox(playerid, SelectSkinTD[playerid][9], 0);
+	PlayerTextDrawSetProportional(playerid, SelectSkinTD[playerid][9], 1);
+	PlayerTextDrawSetSelectable(playerid, SelectSkinTD[playerid][9], 1);
+
+	SelectSkinTD[playerid][10] = CreatePlayerTextDraw(playerid, 367.000000, 352.000000, ">>");
+	PlayerTextDrawFont(playerid, SelectSkinTD[playerid][10], 3);
+	PlayerTextDrawLetterSize(playerid, SelectSkinTD[playerid][10], 0.649999, 3.049998);
+	PlayerTextDrawTextSize(playerid, SelectSkinTD[playerid][10], 400.000000, 32.500000);
+	PlayerTextDrawSetOutline(playerid, SelectSkinTD[playerid][10], 0);
+	PlayerTextDrawSetShadow(playerid, SelectSkinTD[playerid][10], 0);
+	PlayerTextDrawAlignment(playerid, SelectSkinTD[playerid][10], 2);
+	PlayerTextDrawColor(playerid, SelectSkinTD[playerid][10], -1);
+	PlayerTextDrawBackgroundColor(playerid, SelectSkinTD[playerid][10], 255);
+	PlayerTextDrawBoxColor(playerid, SelectSkinTD[playerid][10], 50);
+	PlayerTextDrawUseBox(playerid, SelectSkinTD[playerid][10], 0);
+	PlayerTextDrawSetProportional(playerid, SelectSkinTD[playerid][10], 1);
+	PlayerTextDrawSetSelectable(playerid, SelectSkinTD[playerid][10], 1);
+
+	return 1;
+}

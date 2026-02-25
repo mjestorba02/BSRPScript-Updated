@@ -1,0 +1,114 @@
+CreatePublicInt()
+{
+    i_textdraw[0] = TextDrawCreate(319.000000, 297.000000, "_");
+	TextDrawFont(i_textdraw[0], 1);
+	TextDrawLetterSize(i_textdraw[0], 0.600000, 4.699996);
+	TextDrawTextSize(i_textdraw[0], 298.500000, 44.500000);
+	TextDrawSetOutline(i_textdraw[0], 1);
+	TextDrawSetShadow(i_textdraw[0], 0);
+	TextDrawAlignment(i_textdraw[0], 2);
+	TextDrawColor(i_textdraw[0], -1);
+	TextDrawBackgroundColor(i_textdraw[0], 255);
+	TextDrawBoxColor(i_textdraw[0], 255);
+	TextDrawUseBox(i_textdraw[0], 1);
+	TextDrawSetProportional(i_textdraw[0], 1);
+	TextDrawSetSelectable(i_textdraw[0], 0);
+
+	i_textdraw[1] = TextDrawCreate(319.000000, 299.000000, "_");
+	TextDrawFont(i_textdraw[1], 1);
+	TextDrawLetterSize(i_textdraw[1], 0.600000, 4.199995);
+	TextDrawTextSize(i_textdraw[1], 298.500000, 40.000000);
+	TextDrawSetOutline(i_textdraw[1], 1);
+	TextDrawSetShadow(i_textdraw[1], 0);
+	TextDrawAlignment(i_textdraw[1], 2);
+	TextDrawColor(i_textdraw[1], -1);
+	TextDrawBackgroundColor(i_textdraw[1], 255);
+	TextDrawBoxColor(i_textdraw[1], -1697828097);
+	TextDrawUseBox(i_textdraw[1], 1);
+	TextDrawSetProportional(i_textdraw[1], 1);
+	TextDrawSetSelectable(i_textdraw[1], 0);
+
+	i_textdraw[2] = TextDrawCreate(318.700012, 300.000000, "_");
+	TextDrawFont(i_textdraw[2], 1);
+	TextDrawLetterSize(i_textdraw[2], 0.600000, 3.999998);
+	TextDrawTextSize(i_textdraw[2], 298.500000, 38.500000);
+	TextDrawSetOutline(i_textdraw[2], 1);
+	TextDrawSetShadow(i_textdraw[2], 0);
+	TextDrawAlignment(i_textdraw[2], 2);
+	TextDrawColor(i_textdraw[2], -1);
+	TextDrawBackgroundColor(i_textdraw[2], 255);
+	TextDrawBoxColor(i_textdraw[2], 255);
+	TextDrawUseBox(i_textdraw[2], 1);
+	TextDrawSetProportional(i_textdraw[2], 1);
+	TextDrawSetSelectable(i_textdraw[2], 0);
+
+	i_textdraw[3] = TextDrawCreate(292.000000, 347.000000, "_");
+	TextDrawFont(i_textdraw[3], 1);
+	TextDrawLetterSize(i_textdraw[3], 0.600000, 0.899999);
+	TextDrawTextSize(i_textdraw[3], 298.500000, 9.000000);
+	TextDrawSetOutline(i_textdraw[3], 1);
+	TextDrawSetShadow(i_textdraw[3], 0);
+	TextDrawAlignment(i_textdraw[3], 2);
+	TextDrawColor(i_textdraw[3], -1);
+	TextDrawBackgroundColor(i_textdraw[3], 255);
+	TextDrawBoxColor(i_textdraw[3], 255);
+	TextDrawUseBox(i_textdraw[3], 1);
+	TextDrawSetProportional(i_textdraw[3], 1);
+	TextDrawSetSelectable(i_textdraw[3], 0);
+
+	i_textdraw[4] = TextDrawCreate(309.000000, 347.000000, "_");
+	TextDrawFont(i_textdraw[4], 1);
+	TextDrawLetterSize(i_textdraw[4], 0.600000, 0.899999);
+	TextDrawTextSize(i_textdraw[4], 298.500000, 9.000000);
+	TextDrawSetOutline(i_textdraw[4], 1);
+	TextDrawSetShadow(i_textdraw[4], 0);
+	TextDrawAlignment(i_textdraw[4], 2);
+	TextDrawColor(i_textdraw[4], -1);
+	TextDrawBackgroundColor(i_textdraw[4], 255);
+	TextDrawBoxColor(i_textdraw[4], 255);
+	TextDrawUseBox(i_textdraw[4], 1);
+	TextDrawSetProportional(i_textdraw[4], 1);
+	TextDrawSetSelectable(i_textdraw[4], 0);
+
+	i_textdraw[5] = TextDrawCreate(326.000000, 347.000000, "_");
+	TextDrawFont(i_textdraw[5], 1);
+	TextDrawLetterSize(i_textdraw[5], 0.600000, 0.899999);
+	TextDrawTextSize(i_textdraw[5], 298.500000, 9.000000);
+	TextDrawSetOutline(i_textdraw[5], 1);
+	TextDrawSetShadow(i_textdraw[5], 0);
+	TextDrawAlignment(i_textdraw[5], 2);
+	TextDrawColor(i_textdraw[5], -1);
+	TextDrawBackgroundColor(i_textdraw[5], 255);
+	TextDrawBoxColor(i_textdraw[5], 255);
+	TextDrawUseBox(i_textdraw[5], 1);
+	TextDrawSetProportional(i_textdraw[5], 1);
+	TextDrawSetSelectable(i_textdraw[5], 0);
+
+	i_textdraw[6] = TextDrawCreate(343.000000, 347.000000, "_");
+	TextDrawFont(i_textdraw[6], 1);
+	TextDrawLetterSize(i_textdraw[6], 0.600000, 0.899999);
+	TextDrawTextSize(i_textdraw[6], 298.500000, 9.000000);
+	TextDrawSetOutline(i_textdraw[6], 1);
+	TextDrawSetShadow(i_textdraw[6], 0);
+	TextDrawAlignment(i_textdraw[6], 2);
+	TextDrawColor(i_textdraw[6], -1);
+	TextDrawBackgroundColor(i_textdraw[6], 255);
+	TextDrawBoxColor(i_textdraw[6], 255);
+	TextDrawUseBox(i_textdraw[6], 1);
+	TextDrawSetProportional(i_textdraw[6], 1);
+	TextDrawSetSelectable(i_textdraw[6], 0);
+
+	i_textdraw[7] = TextDrawCreate(319.000000, 365.000000, "Wait!");
+	TextDrawFont(i_textdraw[7], 1);
+	TextDrawLetterSize(i_textdraw[7], 0.341664, 1.499997);
+	TextDrawTextSize(i_textdraw[7], 400.000000, 36.500000);
+	TextDrawSetOutline(i_textdraw[7], 0);
+	TextDrawSetShadow(i_textdraw[7], 0);
+	TextDrawAlignment(i_textdraw[7], 2);
+	TextDrawColor(i_textdraw[7], -1);
+	TextDrawBackgroundColor(i_textdraw[7], 255);
+	TextDrawBoxColor(i_textdraw[7], 50);
+	TextDrawUseBox(i_textdraw[7], 0);
+	TextDrawSetProportional(i_textdraw[7], 1);
+	TextDrawSetSelectable(i_textdraw[7], 0);
+}
